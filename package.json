@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  },
+  "scripts": {
+    "start": "node dist/server/main.js",
+    "commit": "node ./node_modules/cz-customizable/standalone.js"
+  }
+}
